@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,400;1,400;1,500&display=swap');
+*{
+    padding:0;
+    margin:0
+}
+#calculator{
+    width: 400px;
+    height: 35em;
+    background-color: rgb(59,75,100);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:16px;
+    border:5px solid rgb(24,31,50)
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(59,70,100);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#screen{
+    width: 352px;
+    height: 96px;
+    background-color: rgb(24,31,50);
+    border-radius: 15px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+    flex-direction: column;
+}
+#currentoperation{
+    width:320px;
+    height:64px;
+    background-color: rgb(24,31,50);
+    color: white;
+    padding: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+}
+#currentoperation p {
+    width: 80%;
+}
+#bottoms-section{
+    width: 352px;
+    height: 368px;
+    background-color:rgb(37,45,68);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.8em;
+    justify-items: space-around;
+    justify-content: center;
+    padding-top: 0.9em;
+    
+}
+.bottoms{
+    width: 64px;
+    height: 48px;
+    background-color: #fff; 
+    margin: 3.2px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+.bottoms:hover{
+    background-color: rgb(129,133,137);
+}
